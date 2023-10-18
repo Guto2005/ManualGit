@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ManualGit</title>
+</head>
+<body>
+
+    <img src="livro.jpg" alt="Livro">
+
+    <h2>Aqui estão alguns comandos utilizados no git</h2>
+    <h3>Antes de começar-mos, devemos perguntar, o que é o git?</h3>
+    <p>O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando espaço dos
+        outros sistemas de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds, e ganhou o coração
+        das pessoas que trabalham com open source.</p>
+    <h3>Primeiros passos</h3>
+    <ul type="square">
+        <li>Instale o git pelo site original</li>
+        <li>Crie uma pasta aonde quiser e crie uma conta no github</li>
+        <li>Abra a pasta criada e clique com o direito para selecionar o gitbash</li>
+        <li>Depois de abrir, coloque: git init para iniciar o git dentro da pasta</li>
+        <li>Agora coloque: git config --global user.name "seu nome" para configurar o nome do dono do seu gitbash </li>
+        <li>Depois dentro do site github com a sua conta logada, crie um repositório dentro do site e copie o link do
+            seu repositório</li>
+        <li>Dentro do gitbash, escreva: git remote add origin (coloque o seu link aqui) </li>
+    </ul>
+    <h3>Principais Comandos</h3>
+    <ul type="square">
+        <li>1-Git config</li>
+        <li>2-Git init</li>
+        <li>3-Git clone</li>
+        <li>4-Git add</li>
+        <li>5-Git commit</li>
+        <li>6-Git branch</li>
+        <li>7-Git checkout</li>
+        <li>8-Git remote</li>
+        <li>9-Git push</li>
+        <li>10-Git fetch</li>
+        <li>11-Git pull</li>
+        <li>12-Git stash</li>
+        <li>13-Git show</li>
+        <li>14-Git rm</li>
+        <li>15-Git help</li>
+        <li>16-Git merge</li>
+        <li>17-Git rebase</li>
+        <li>18-Git pull -rebase</li>
+        <li>19-Git cherry-pick</li>
+        <li>20-Git archive</li>
+        <li>21-Git blame</li>
+        <li>22-Git tag</li>
+        <li>23-Git diff</li>
+        <li>24-Git citool</li>
+        <li>25-Git whatchanged</li>
+    </ul>
+    <h3>Explicando</h3>
+    <li>1-Configura sua identidade de usuário.</li>
+    <li>2-Cria um repositório novo em branco para armazenar seu codigo fonte.</li>
+    <li>3-Cria uma cópia exata de um repositório já existente.</li>
+    <li>4-Adiciona arquivos especificados de código ao seu repositóriom, sejam novos ou anteriores que foram alterados.</li>
+    <li>5-Commit, commita os arquivos que foram adicionados e cria uma nova revisão para o git log, por outro lado, se você não adicionar nenhum arquivo, o git não fará o commit de nada</li>
+    <li>6-Ajuda na organização de variações em seu repositório git.</li>
+    <li>7=Serve para combinar branches criando e fazendo checkout de um novo branch com um único comando</li>
+    <li>8-Estabelece uma conexão entre seu repositório local e o repositório remoto</li>
+    <li>9-Sobe suas modificações para um repositório remoto conmectado anteriormente com git remote.</li>
+    <li>10-Recebe todas as informações de commits da sua equipe, para avaliar, antes de aplicar alterações de versão local do repositório</li>
+    <li>11-Baixa o conteúdo do que não foi alterado no repositório remoto para o seu repositório local e imediatamente atualiza seu conteúdo para a ultima versão</li>
+    <li>12-Armazena temporariamente seus arquivos modificados em uma área chamada stash sem interagir com outros arquivos até ser necessário</li>
+    <li>13-Mostra detalhes de um commit que o log não mostra</li>
+    <li>14-Remove arquivos da sua pasta</li>
+    <li>15-Mostra muito mais do que esses 25 comandos da lista para ajudar o usuário</li>
+    <li>16-Integra as mudanças de dois branches diferentes em um único branch</li>
+    <li>17-Faz o mesmo do que o git porém ele refaz o histórico de commits, tornando-o linear.É o mais indicado para consolidar múltiplos branches</li>
+    <li>18-É uma variação do pull,A partir dessa instrução, o git irá fazer um rebase depois utilizar o comando pull</li>
+    <li>19-Permite selecionar qualquer commit específico de um branch e aplicá-lo a outro branch, sem precisar de uma mescla completa. A operação fica adicionada no histórico</li>
+    <li>20-Combina múltiplos arquivos em único arquivo, como se fosse um arquivo zipado. Esse pacote pode ser aberto e os arquivos contidos podem ser extraídos individualmente</li>
+    <li>21-Ajuda a determinar qual usuário realizou qual mudança em um determinado arquivo.</li>
+    <li>22-Marca uma branch para evitar alteração principalmente em releases públicos</li>
+    <li>23-Compara dois arquivos gits ou dois branchs antes de passarem por um commit ou push, é importante executar o comando git diff HEAD (nome do arquivo)</li>
+    <li>24-Oferece uma alternativa gráfica ao commit</li>
+    <li>25-Oferece informações de log, mas em formato raw</li>
+</body>
+</html>
